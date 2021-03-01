@@ -2,7 +2,6 @@ import React from 'react';
 import './Cart.css';
 
 const Cart = (props) => {
-
     const cart = props.cart;
     const total = cart.reduce((total, cart) => total + cart.hirePrice, 0);
 
