@@ -1,0 +1,12 @@
+.cart-container{
+    position: fixed;
+}
+.list-group-item {
+    border:none;
+  }
+.cart{
+    margin-left: 20px;
+  }
+  .budget{
+      padding-top: 20px;
+  }

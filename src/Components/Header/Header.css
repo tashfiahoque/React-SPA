@@ -1,0 +1,45 @@
+nav{
+    background-color: #2a6592;
+    margin-bottom: 50px;  
+}
+.logo{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+}
+.menu ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000 !important;
+    padding: 12px 25px !important;
+    border-radius: 33px;
+    transition: 1s ease-in;
+}
+.menu ul li a:hover{
+    background-color: #8ec3eb;  
+}
+.navbar-light .navbar-nav .nav-item.active .nav-link{
+    background-color: #21B573;  
+    color: #000;
+}
+.text-design{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 30px;
+    animation: text 3s 1;
+}
+@keyframes text{
+    0%{
+        margin-bottom: -10px;
+    }
+    30%{
+        letter-spacing: 12px;
+        margin-bottom: -10px;
+    }
+    85%{
+        letter-spacing: 3px;
+        margin-bottom: -10px;
+    }
+}
