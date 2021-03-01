@@ -12,7 +12,7 @@ const Cart = (props) => {
                 <h1>Total Players Added: {cart.length}</h1>
                 <ul className="list-group">
                     {cart.map((addedPlayer) => <li className="list-group-item d-flex my-2 shadow justify-content-between" key={addedPlayer.id}>
-                        <span>{addedPlayer.name}</span> <span> Tk. {addedPlayer.hirePrice}</span>
+                        <span>{addedPlayer.name}</span> <span> $ {addedPlayer.hirePrice}</span>
                         <span><button className="btn btn-sm hire-button" onClick={() => props.handleRemovePlayer(addedPlayer.id)}>Remove</button></span>
                     </li>)}
                 </ul>
